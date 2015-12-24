@@ -1,50 +1,77 @@
-CyanogenMod
-===========
-
-Submitting Patches
-------------------
-Patches are always welcome!  Please submit your patches via CyanogenMod Gerrit!
-You can do this by using these commands:
-
-    (From root android directory)
-    . build/envsetup.sh
-    (Go to repo you are patching, make your changes and commit)
-    cmgerrit <for(new)/changes(patch set)> <branch/change-id> 
-
-    repo start cm-13.0 .
-    (Make your changes and commit)
-    repo upload .
-Note: "." meaning current directory
-For more help on using this tool, use this command: repo help upload
-
-Make your changes and commit with a detailed message, starting with what you are working with (i.e. vision: Update Kernel)
-Commit your patches in a single commit. Squash multiple commit using this command: git rebase -i HEAD~<# of commits>
-
-To view the status of your and others' patches, visit [CyanogenMod Code Review](http://review.cyanogenmod.org/)
-
+![](http://s21.postimg.org/w9nhupo1j/user4968383_pic43635_1391879040.png)
 
 Getting Started
 ---------------
+In order to build S+ Reborn for your device, first of all you need to get familiar
+with [Git and Repo](http://source.android.com/source/version-control.html).
 
-To get started with Android/CyanogenMod, you'll need to get
-familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
+To initialize your local repository using the XOSP trees, use a command like this:
 
-To initialize your local repository using the CyanogenMod trees, use a command like this:
-
-    repo init -u git://github.com/CyanogenMod/android.git -b cm-13.0
-
+    repo init -u git://github.com/XOSP-Project/platform_manifest.git -b RL2
+    
 Then to sync up:
 
-    repo sync
+    repo sync --force-sync
 
-Please see the [CyanogenMod Wiki](http://wiki.cyanogenmod.org/) for building instructions.
-
-For more information on this Github Organization and how it is structured, 
-please [read the wiki article](http://wiki.cyanogenmod.org/w/Github_Organization)
-
-Buildbot
 --------
 
-All supported devices are built nightly and periodically as changes are committed to ensure the source trees remain buildable.
+## Building the S+ Reborn for your device
 
-You can view the current build statuses at [CyanogenMod Jenkins](http://jenkins.cyanogenmod.org/)
+### Build Environment
+
+- Tested and Working on any version of Ubuntu - 14.04, 14.10, 15.04, 15.10 (64-bit)
+- Any other distribution based of the Ubuntu Distro such as Lubuntu, Xubuntu and etc.
+- A Terminal window
+- A Good specs of hardware like 4 GB of RAM and an Intel I3 dual core
+- A storage unit of any kind (minimum 70 GB). It would be better to use SSD because is more fast during the compliation process
+- Some dependencies that should be installed
+
+## Build environment and dependencies download
+
+To make the build environment for the users easier we created a setup.sh based on the Resurrection one which if you run it from the Terminal it will build the environment for you and automatically sync the Repo
+
+      $ git clone https://github.com/XOSP-Project/platform_manifest.git
+      $ cd ~/platform_manifest
+      $ ./setup.sh
+
+###Building the S+ Reborn ROM for your device
+- Preparing Required Binaries and Device Drivers
+- Setting Up CCache (Optional)
+- Build phase
+
+Congratulations on the succesfull build initialization! Now, we shall go ahead and prepare to build for your device!
+
+##### Preparing S+ Reborn for your device
+- To know how to include propietary vendors files from your device, follow this guide which explains everything you need to know: (http://forum.xda-developers.com/showpost.php?p=54118631&postcount=4)
+
+##### Setting Up CCache
+- CCache is a method of utilizing a specified storage space to speed up building. It can be referred to as the same caching your android device does to speed up application and system boot times. In this case, CCache will help build Resurrection Remix faster than standard build times (Able to cut-down 50% of time taken to build).
+- To set up CCache, follow the following:
+
+
+      $ sudo nano ~/.bashrc
+Doing this will open nano, a text editor for Linux. From here, navigate to the end of the file and add the following:
+
+      $ export USE_CCACHE=1
+      $ export CCACHE_DIR=~/.ccache
+After doing so, do a CTRL+X and type Y and enter. This will save the .BashRC file with the changes made. Now that is complete, do the following to activate CCache.
+
+      $ prebuilts/misc/linux-x86/ccache/ccache -M 50G
+The number before the letter G at the end specifies the amount of space CCache can use in your storage unit. As such, ensure that not too much of space is specified as this might result in unexpected errors although, the more storage you have, its recommended to have more CCache as it will increase the build times. Most efficient build systems are able to utilize CCache to about 120G or more.
+
+##### To build S+ Reborn ROM
+
+      $ cd ~/XOSP
+      $ . build/envsetup.sh && brunch <device>
+
+##### Obtaining the zip created from the build process
+To get the zip file that has been built, navigate to the out directory and find for the zip file there. If you found it, then congratulations! If you didn't, try retrying the build process but before doing so, ensure you do the following:
+
+      $ cd ~/XOSP
+      $ make clean
+
+After doing so, redo everything stated from the Building Section.
+
+##### For those who finally get the compilation process done
+Well you made it my friend, after all these hours passed now you finally got a flashable zip which can be flashed through the recovery of your device. Share it on XDA or on every forum,blog site etc... (as you wish). 
+But be sure to contribute back and also give credits to XOSP Team and its contributors! Don't forget to come back and build S+ Reborn more times because the source gets chnaged almost everyday with new fixed or new features. Don't esitate to make pull requests because we will appreciate them all. 
