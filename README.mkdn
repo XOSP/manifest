@@ -26,43 +26,21 @@ Then to sync up:
 - A storage unit of any kind (minimum 70 GB). It would be better to use SSD because is more fast during the compliation process
 - Some dependencies that should be installed
 
-## Build environment and dependencies download
-
-To make the build environment for the users easier we created a setup.sh based on the Resurrection one which if you run it from the Terminal it will build the environment for you and automatically sync the Repo
-
-      $ git clone https://github.com/XOSP-Project/platform_manifest.git
-      $ cd ~/platform_manifest
-      $ ./setup.sh
-
 ###Building the S+ Reborn ROM for your device
 - Preparing Required Binaries and Device Drivers
 - Setting Up CCache (Optional)
 - Build phase
 
-Congratulations on the succesfull build initialization! Now, we shall go ahead and prepare to build for your device!
+Congratulations,the sources are initialized! 
 
 ##### Preparing S+ Reborn for your device
 - To know how to include propietary vendors files from your device, follow this guide which explains everything you need to know: (http://forum.xda-developers.com/showpost.php?p=54118631&postcount=4)
 
-##### Setting Up CCache
-- CCache is a method of utilizing a specified storage space to speed up building. It can be referred to as the same caching your android device does to speed up application and system boot times. In this case, CCache will help build Resurrection Remix faster than standard build times (Able to cut-down 50% of time taken to build).
-- To set up CCache, follow the following:
-
-
-      $ sudo nano ~/.bashrc
-Doing this will open nano, a text editor for Linux. From here, navigate to the end of the file and add the following:
-
-      $ export USE_CCACHE=1
-      $ export CCACHE_DIR=~/.ccache
-After doing so, do a CTRL+X and type Y and enter. This will save the .BashRC file with the changes made. Now that is complete, do the following to activate CCache.
-
-      $ prebuilts/misc/linux-x86/ccache/ccache -M 50G
-The number before the letter G at the end specifies the amount of space CCache can use in your storage unit. As such, ensure that not too much of space is specified as this might result in unexpected errors although, the more storage you have, its recommended to have more CCache as it will increase the build times. Most efficient build systems are able to utilize CCache to about 120G or more.
-
 ##### To build S+ Reborn ROM
 
       $ cd ~/XOSP
-      $ . build/envsetup.sh && brunch <device>
+      $ source build/./envsetup.sh
+      $ brunch <device>
 
 ##### Obtaining the zip created from the build process
 To get the zip file that has been built, navigate to the out directory and find for the zip file there. If you found it, then congratulations! If you didn't, try retrying the build process but before doing so, ensure you do the following:
@@ -70,8 +48,8 @@ To get the zip file that has been built, navigate to the out directory and find 
       $ cd ~/XOSP
       $ make clean
 
-After doing so, redo everything stated from the Building Section.
+When you done the initialization once you're free to build now without making that again.
 
 ##### For those who finally get the compilation process done
 Well you made it my friend, after all these hours passed now you finally got a flashable zip which can be flashed through the recovery of your device. Share it on XDA or on every forum,blog site etc... (as you wish). 
-But be sure to contribute back and also give credits to XOSP Team and its contributors! Don't forget to come back and build S+ Reborn more times because the source gets chnaged almost everyday with new fixed or new features. Don't esitate to make pull requests because we will appreciate them all. 
+We expect you to contribute as well and to give credits to the XOSP Team and its contributors! Don't forget to everytime sync your repo and build S+ Reborn more than just one time because the source get changed almost everyday with new fixes or new features. Don't esitate to make pull requests because we will take them all in consideration. 
