@@ -34,6 +34,7 @@
   <project path="vendor/reborn" name="android_vendor_reborn" remote="xosp" />
   <project path="external/stlport" name="CyanogenMod/android_external_stlport" remote="github"/>
   <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="xosp" groups="pdk-fs" />
+  <project path="xosp_apps" name="xosp_apps" remote="xosp" />
 
 <!-- END S+ REBORN -->
   
