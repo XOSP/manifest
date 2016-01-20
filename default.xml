@@ -15,7 +15,7 @@
   
   <remote  name="xosp"
            fetch="https://github.com/XOSP-Project"
-           revision="RL2" />
+           revision="RL3" />
 
   <default revision="refs/heads/cm-13.0"
            remote="github"
