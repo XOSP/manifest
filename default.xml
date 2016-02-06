@@ -7,7 +7,10 @@
            revision="refs/tags/android-6.0.1_r13" />
 
   <remote  name="github"
-           fetch=".."
+           fetch="https://github.com" />
+
+  <remote  name="CyanogenMod"
+           fetch="https://github.com/cyanogenmod"
            review="review.cyanogenmod.org" />
 
   <remote  name="private"
@@ -16,6 +19,10 @@
   <remote  name="xosp"
            fetch="https://github.com/XOSP-Project"
            revision="RL3" />
+  
+  <remote  name="xosp_devices"
+           fetch="https://github.com/XOSP-Project"
+           revision="reborn-mm" />
 
   <default revision="refs/heads/cm-13.0"
            remote="github"
