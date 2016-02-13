@@ -2,12 +2,12 @@
 
 Getting Started
 ---------------
-In order to build S+ Reborn for your device, first of all you need to get familiar
+In order to build XOSP for your device, first of all you need to get familiar
 with [Git and Repo](http://source.android.com/source/version-control.html).
 
 To initialize your local repository using the XOSP trees, use a command like this:
 
-    repo init -u git://github.com/XOSP-Project/platform_manifest.git -b RL3
+    repo init -u git://github.com/XOSP-Project/platform_manifest.git -b xosp-mm
     
 Then to sync up:
 
@@ -15,7 +15,7 @@ Then to sync up:
 
 --------
 
-## Building the S+ Reborn for your device
+## Building XOSP for your device
 
 ### Build Environment
 
@@ -26,17 +26,17 @@ Then to sync up:
 - A storage unit of any kind (minimum 70 GB). It would be better to use SSD because is more fast during the compliation process
 - Some dependencies that should be installed
 
-###Building the S+ Reborn ROM for your device
+###Building XOSP ROM for your device
 - Preparing Required Binaries and Device Drivers
 - Setting Up CCache (Optional)
 - Build phase
 
 Congratulations,the sources are initialized! 
 
-##### Preparing S+ Reborn for your device
+##### Preparing XOSP for your device
 - To know how to include propietary vendors files from your device, follow this guide which explains everything you need to know: (http://forum.xda-developers.com/showpost.php?p=54118631&postcount=4)
 
-##### To build S+ Reborn ROM
+##### To build XOSP ROM
 
       $ cd ~/XOSP
       $ source build/./envsetup.sh
@@ -51,5 +51,8 @@ To get the zip file that has been built, navigate to the out directory and find 
 When you done the initialization once you're free to build now without making that again.
 
 ##### For those who finally get the compilation process done
-Well you made it my friend, after all these hours passed now you finally got a flashable zip which can be flashed through the recovery of your device. Share it on XDA or on every forum,blog site etc... (as you wish). 
-We expect you to contribute as well and to give credits to the XOSP Team and its contributors! Don't forget to everytime sync your repo and build S+ Reborn more than just one time because the source get changed almost everyday with new fixes or new features. Don't esitate to make pull requests because we will take them all in consideration. 
+Well you made it my friend, after all these hours passed now you finally got the ROM and XOSPApps flashable through the recovery of your device. Share it on XDA or on every forum,blog site etc... (as you wish). 
+We expect you to contribute as well and to give credits to the XOSP Team and they're contributors! Don't forget to everytime sync your repo and build XOSP more than just one because the source get changed almost everyday with new fixes or new features. Don't esitate to make pull requests because we will take them all in consideration.
+
+#### Don't know what XOSPApps are?
+If you don't know what XOSPApps are take a look over here: https://github.com/XOSP-Project/xosp_apps
