@@ -18,11 +18,11 @@
   
   <remote  name="xosp"
            fetch="https://github.com/XOSP-Project"
-           revision="RL3" />
+           revision="xosp-mm" />
   
   <remote  name="xosp_devices"
            fetch="https://github.com/XOSP-Project"
-           revision="reborn-mm" />
+           revision="xosp-mm" />
 
   <default revision="refs/heads/cm-13.0"
            remote="github"
