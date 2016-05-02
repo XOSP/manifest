@@ -19,7 +19,7 @@ Then to sync up:
 
 ### Build Environment
 
-- Tested and Working on any version of Ubuntu - 14.04, 14.10, 15.04, 15.10 (64-bit)
+- Tested and Working on any version of Ubuntu - 14.04, 14.10, 15.04, 15.10&16.04 (64-bit)
 - Any other distribution based of the Ubuntu Distro such as Lubuntu, Xubuntu and etc.
 - A Terminal window
 - A Good specs of hardware like 4 GB of RAM and an Intel I3 dual core
@@ -28,8 +28,12 @@ Then to sync up:
 
 ###Building XOSP ROM for your device
 - Preparing Required Binaries and Device Drivers
-- Setting Up CCache (Optional)
+- Set CCache for Faster Building (Optional)
 - Build phase
+
+-Set CCache >
+export USE_CCACHE=1
+prebuilts/misc/linux-x86/ccache/ccache -M 100G
 
 Congratulations,the sources are initialized! 
 
