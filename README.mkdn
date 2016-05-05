@@ -41,7 +41,7 @@ Congratulations,the sources are initialized!
 ##### Preparing XOSP for your device
 - To know how to include propietary vendors files from your device, follow this guide which explains everything you need to know: (http://forum.xda-developers.com/showpost.php?p=54118631&postcount=4)
 
-- Once you finish modifying the vendor files for your device, you will need to ass also this line into the xosp.mk of your device:
+- Once you finish modifying the vendor files for your device, you will need to add this line into the xosp.mk of your device:
 
       $(call inherit-product, vendor/xosp/config/xosp.mk)
 
