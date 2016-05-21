@@ -45,7 +45,6 @@ Congratulations,the sources are initialized!
 
       $(call inherit-product, vendor/xosp/config/xosp.mk)
 
-- Don't forget to build the ROM in permissive mode or else the ROM will not boot!
 
 ##### To build XOSP ROM
 
