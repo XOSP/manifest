@@ -25,6 +25,6 @@
   <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" revision="cm-13.0" />
   <project path="vendor/xiaomi" name="armani-dev/proprietary_vendor_xiaomi" revision="cm-13.0" />
   <project path="vendor/huawei" name="TheMuppets/proprietary_vendor_huawei" revision="cm-13.0" />
-  <project path="vendor/asus" name="TheMuppets/proprietary_vendor_asus" revision="cm-13.0" />
+  <project path="vendor/asus" name="nilac8991/proprietary_vendor_asus" revision="cm-13.0" />
 
 </manifest>
