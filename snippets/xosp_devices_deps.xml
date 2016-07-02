@@ -16,6 +16,7 @@
   <project path="kernel/huawei/angler" name="CyanogenMod/android_kernel_huawei_angler" revision="cm-13.0" />
   <project path="kernel/asus/msm8916" name="CyanogenMod/android_kernel_asus_msm8916" revision="cm-13.0" />
   <project path="kernel/lge/g3" name="CyanogenMod/android_kernel_lge_g3" revision="cm-13.0" />
+  <project path="kernel/lge/msm8974" name="https://github.com/CyanogenMod/android_kernel_lge_msm8974" revision="cm-13.0" />
 
   	<!-- Vendors -->
 
