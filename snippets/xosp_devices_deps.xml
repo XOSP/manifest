@@ -20,6 +20,7 @@
   <project path="kernel/xiaomi/msm8956" name="CyanogenMod/android_kernel_xiaomi_msm8956" revision="cm-13.0" />
   <project path="kernel/oneplus/onyx" name="sud-vastav/kernel_oneplus_onyx" revision="xosp-mm" />
   <project path="kernel/lge/bullhead" name="CyanogenMod/android_kernel_lge_bullhead" revision="cm-13.0" />
+  <project path="kernel/cyanogen/msm8916" name="kumajaya/android_kernel_cyanogen_msm8916" revision="cm-13.0-amss-2.1-wt88047" />
 
   	<!-- Vendors -->
 
@@ -30,5 +31,6 @@
   <project path="vendor/xiaomi" name="armani-dev/proprietary_vendor_xiaomi" revision="cm-13.0" />
   <project path="vendor/huawei" name="TheMuppets/proprietary_vendor_huawei" revision="cm-13.0" />
   <project path="vendor/asus" name="nilac8991/proprietary_vendor_asus" revision="cm-13.0" />
+  <project path="vendor/wingtech" name="kumajaya/proprietary_vendor_wingtech" revision="cm-13.0" />
 
 </manifest>
