@@ -20,7 +20,7 @@
   <project path="kernel/xiaomi/msm8956" name="CyanogenMod/android_kernel_xiaomi_msm8956" revision="cm-13.0" />
   <project path="kernel/oneplus/onyx" name="sud-vastav/kernel_oneplus_onyx" revision="xosp-mm" />
   <project path="kernel/lge/bullhead" name="CyanogenMod/android_kernel_lge_bullhead" revision="cm-13.0" />
-  <project path="kernel/wt88047/msm8916" name="kumajaya/android_kernel_cyanogen_msm8916" revision="cm-13.0-amss-2.1-wt88047" />
+  <project path="kernel/wingtech/msm8916" name="kumajaya/android_kernel_cyanogen_msm8916" revision="cm-13.0-amss-2.1-wt88047" />
 
   	<!-- Vendors -->
 
