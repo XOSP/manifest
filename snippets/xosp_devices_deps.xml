@@ -18,6 +18,7 @@
   <project path="kernel/lge/g3" name="CyanogenMod/android_kernel_lge_g3" revision="cm-13.0" />
   <project path="kernel/lge/msm8974" name="CyanogenMod/android_kernel_lge_msm8974" revision="cm-13.0" />
   <project path="kernel/xiaomi/msm8956" name="CyanogenMod/android_kernel_xiaomi_msm8956" revision="cm-13.0" />
+  <project name="sud-vastav/kernel_oneplus_onyx" path="kernel/oneplus/onyx" revision="xosp-mm" />
 
   	<!-- Vendors -->
 
