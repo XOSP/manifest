@@ -55,7 +55,7 @@
   <project path="packages/apps/XOSPFileManager" name="android_packages_apps_XOSPFileManager" remote="xosp" />
   <project path="system/core" name="android_system_core" remote="xosp" groups="pdk" />
 
-  <include name="snippets/xosp_devices_deps.xml" />
+  <!--<include name="snippets/xosp_devices_deps.xml" /> -->
 
 <!-- END OF XOSP Repos -->
   
