@@ -21,6 +21,7 @@
   <project path="kernel/oneplus/onyx" name="sud-vastav/kernel_oneplus_onyx" revision="xosp-mm" />
   <project path="kernel/lge/bullhead" name="CyanogenMod/android_kernel_lge_bullhead" revision="cm-13.0" />
   <project path="kernel/wingtech/msm8916" name="kumajaya/android_kernel_cyanogen_msm8916" revision="cm-13.0-amss-2.1-wt88047" />
+  <project path="kernel/cyanogen/msm8916-tomato" name="CyanogenMod/android_kernel_cyanogen_msm8916" revision="staging/cm-13.0-lettuce" />
   
   	<!-- Custom shield repos -->
   <project path="device/nvidia/shield-common" name="carbon-shield/android_device_nvidia_shield-common" revision="cr-4.0" />
