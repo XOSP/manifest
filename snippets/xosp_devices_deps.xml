@@ -7,7 +7,7 @@
   <project path="kernel/asus/moorefield" name="CyanogenMod/android_kernel_asus_moorefield" revision="cm-13.0" />
   <project path="kernel/oneplus/msm8994" name="CyanogenMod/android_kernel_oneplus_msm8994" revision="cm-13.0" />
   <project path="kernel/motorola/msm8916" name="CyanogenMod/android_kernel_motorola_msm8916" revision="cm-13.0" />
-  <project path="kernel/motorola/msm8226" name="CyanogenMod/android_kernel_motorola_msm8226" revision="cm-13.0" />
+  <project path="kernel/motorola/msm8226" name="koradiavatsal/Viper-kernel" revision="testing" />
   <project path="kernel/lge/hammerhead" name="CyanogenMod/android_kernel_lge_hammerhead" revision="cm-13.0" />
   <project path="kernel/lge/mako" name="CyanogenMod/lge-kernel-mako" revision="cm-13.0" />
   <project path="kernel/xiaomi/armani" name="armani-dev/android_kernel_xiaomi_armani" revision="cm-13.0" />
