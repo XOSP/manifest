@@ -34,8 +34,6 @@
   <project path="vendor/yu" name="TheMuppets/proprietary_vendor_yu" revision="cm-13.0" />
   <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" revision="cm-13.0" />
   <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" revision="cm-13.0" />
-  <project path="vendor/xiaomi" name="TheMuppets/proprietary_vendor_xiaomi" revision="cm-13.0" />
-  <project path="vendor/xiaomi-armani" name="XOSP-Devices/proprietary_vendor_xiaomi" revision="cm-13.0" />
   <project path="vendor/huawei" name="TheMuppets/proprietary_vendor_huawei" revision="cm-13.0" />
   <project path="vendor/asus" name="nilac8991/proprietary_vendor_asus" revision="cm-13.0" />
   <project path="vendor/wingtech" name="kumajaya/proprietary_vendor_wingtech" revision="cm-13.0" />
