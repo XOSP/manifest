@@ -4,7 +4,7 @@
 	<!-- Kernels -->
 
   <project path="kernel/lge/msm8992" name="CyanogenMod/android_kernel_lge_msm8992" revision="cm-13.0" />
-  <project path="kernel/asus/moorefield" name="CyanogenMod/android_kernel_asus_moorefield" revision="cm-13.0" />
+  <project path="kernel/asus/moorefield" name="sayeed99/android_kernel_asus_moorefield" revision="cm-13.0" />
   <project path="kernel/oneplus/msm8994" name="CyanogenMod/android_kernel_oneplus_msm8994" revision="cm-13.0" />
   <project path="kernel/motorola/msm8916" name="CyanogenMod/android_kernel_motorola_msm8916" revision="cm-13.0" />
   <project path="kernel/motorola/msm8226" name="koradiavatsal/Viper-kernel" revision="testing" />
@@ -35,7 +35,7 @@
   <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" revision="cm-13.0" />
   <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" revision="cm-13.0" />
   <project path="vendor/xiaomi" name="TheMuppets/proprietary_vendor_xiaomi" revision="cm-13.0" />
-  <project path="vendor/xiaomi-armani" name="armani-dev/proprietary_vendor_xiaomi" revision="cm-13.0" />
+  <project path="vendor/xiaomi-armani" name="XOSP-Devices/proprietary_vendor_xiaomi" revision="cm-13.0" />
   <project path="vendor/huawei" name="TheMuppets/proprietary_vendor_huawei" revision="cm-13.0" />
   <project path="vendor/asus" name="nilac8991/proprietary_vendor_asus" revision="cm-13.0" />
   <project path="vendor/wingtech" name="kumajaya/proprietary_vendor_wingtech" revision="cm-13.0" />
