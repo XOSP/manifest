@@ -7,7 +7,7 @@
 
   <!-- BEGIN XOSP Repos -->
 
-  <project path="build" name="android_build" groups="pdk,tradefed">
+  <project path="build" name="android_build" groups="pdk,tradefed" remote="xosp">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="vendor/xosp" name="android_vendor_xosp" remote="xosp" />
