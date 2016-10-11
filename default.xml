@@ -490,5 +490,6 @@
 
   <include name="snippets/cm-14.0.xml" />
   <include name="snippets/xosp-n.xml" />
+  <include name="snippets/xosp_devices_deps.xml"/>
 
 </manifest>

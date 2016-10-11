@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Kernels -->
+
+  <project path="kernel/asus/moorefield" name="CyanogenMod/android_kernel_asus_moorefield" revision="cm-14.0" />
+
+  <!-- Vendors -->
+
+  <project path="vendor/asus" name="jrior001/proprietary_vendor_asus" revision="cm-14.0" />
+
+</manifest>
