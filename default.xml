@@ -489,5 +489,6 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" remote="aosp" />
 
   <include name="snippets/cm-14.0.xml" />
+  <include name="snippets/xosp-n.xml" />
 
 </manifest>
