@@ -11,5 +11,6 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="vendor/xosp" name="android_vendor_xosp" remote="xosp" />
+  <project path="vendor/cmsdk" name="cm_platform_sdk" remote="xosp" />
   
 </manifest>
