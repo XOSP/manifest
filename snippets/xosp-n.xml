@@ -13,5 +13,5 @@
   </project>
   <project path="vendor/xosp" name="android_vendor_xosp" remote="xosp" />
   <project path="vendor/cmsdk" name="cm_platform_sdk" remote="xosp" />
-  <project path="packages/apps/CMParts" name="CyanogenMod/android_packages_apps_CMParts" remote="xosp" />
+  <project path="packages/apps/CMParts" name="android_packages_apps_CMParts" remote="xosp" />
 </manifest>
