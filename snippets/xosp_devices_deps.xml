@@ -5,9 +5,16 @@
 
   <project path="kernel/asus/moorefield" name="CyanogenMod/android_kernel_asus_moorefield" revision="cm-14.0" />
   <project path="kernel/lge/mako" name="nitrogen-os-devices/android_kernel_lge_mako" revision="n2" />
-  
+  <project path="kernel/oneplus/msm8974" name="XOSP-devices/android_kernel_oneplus_msm8974" revision="xosp-n" />
+
   <!-- Vendors -->
 
   <project path="vendor/asus" name="jrior001/proprietary_vendor_asus" revision="cm-14.0" />
   <project path="vendor/lge/mako" name="nitrogen-os-devices/android_vendor_lge_mako" revision="n2" />
+  <project path="vendor/oneplus" name="XOSP-Devices/proprietary_vendor_oneplus" revision="xosp-n" />
+
+  <!-- Common dependency for qualcomm devices -->
+
+  <project path="device/qcom/common" name="XOSP-Devices/android_device_qcom_common" revision="xosp-n" />
+
 </manifest>
