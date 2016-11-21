@@ -4,9 +4,10 @@
   <!-- Kernels -->
 
   <project path="kernel/asus/moorefield" name="CyanogenMod/android_kernel_asus_moorefield" revision="cm-14.0" />
-
+  <project path="kernel/lge/mako" name="nitrogen-os-devices/android_kernel_lge_mako" revision="n2" />
+  
   <!-- Vendors -->
 
   <project path="vendor/asus" name="jrior001/proprietary_vendor_asus" revision="cm-14.0" />
-
+  <project path="vendor/lge/mako" name="nitrogen-os-devices/android_vendor_lge_mako" revision="n2" />
 </manifest>
