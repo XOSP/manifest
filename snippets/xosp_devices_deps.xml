@@ -10,4 +10,9 @@
 
   <project path="vendor/asus" name="jrior001/proprietary_vendor_asus" revision="cm-14.0" />
   <project path="vendor/lge/mako" name="nitrogen-os-devices/android_vendor_lge_mako" revision="n2" />
+
+  <!-- Common dependency for qualcomm devices -->
+
+  <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" revision="cm-14.1" />
+
 </manifest>
