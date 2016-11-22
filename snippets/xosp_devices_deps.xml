@@ -5,14 +5,19 @@
 
   <project path="kernel/asus/moorefield" name="CyanogenMod/android_kernel_asus_moorefield" revision="cm-14.0" />
   <project path="kernel/lge/mako" name="nitrogen-os-devices/android_kernel_lge_mako" revision="n2" />
-  
+  <project path="kernel/lge/msm8974" name="g2-dev/android_kernel_lge_msm8974" remote="github" revision="cm-14.1" />
+
   <!-- Vendors -->
 
   <project path="vendor/asus" name="jrior001/proprietary_vendor_asus" revision="cm-14.0" />
   <project path="vendor/lge/mako" name="nitrogen-os-devices/android_vendor_lge_mako" revision="n2" />
+  <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" remote="github" revision="cm-14.1" />
 
   <!-- Common dependency for qualcomm devices -->
 
   <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" revision="cm-14.1" />
 
+  <!-- D802 Extra Dependencies -->
+
+  <project path="external/sony/boringssl-compat" name="XOSP-Devices/android_external_sony_boringssl-compat" remote="github" revision="xosp-n" />
 </manifest>
