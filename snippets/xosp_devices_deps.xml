@@ -8,6 +8,7 @@
   <project path="kernel/lge/mako" name="CyanogenMod/lge-kernel-mako" revision="cm-14.1" />
   <project path="kernel/lge/msm8974" name="g2-dev/android_kernel_lge_msm8974" remote="github" revision="cm-14.1" />
   <project path="kernel/lge/hammerhead" name="CyanogenMod/android_kernel_lge_hammerhead" remote="github" revision="cm-14.1" />
+  <project path="kernel/lge/bullhead" name="CyanogenMod/android_kernel_lge_bullhead" remote="github" revision="cm-14.1" />
   
   <!-- Vendors -->
 
