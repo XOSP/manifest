@@ -12,7 +12,6 @@
   <!-- Vendors -->
 
   <project path="vendor/asus" name="jrior001/proprietary_vendor_asus" revision="cm-14.0" />
-  <project path="vendor/oneplus" name="TheMuppets/proprietary_vendor_oneplus" revision="cm-14.1"/>
   <project path="vendor/qcom/binaries" name="TheMuppets/proprietary_vendor_qcom_binaries" revision="cm-14.1" />
   <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" remote="github" revision="cm-14.1" />
 
