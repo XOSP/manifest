@@ -25,6 +25,7 @@
   <project path="external/pigz" name="CyanogenMod/android_external_pigz" />
   <project path="external/rsync" name="CyanogenMod/android_external_rsync" />
   <project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" />
+  <project path="external/stlport" name="CyanogenMod/android_external_stlport"/>
   <project path="external/uicommon" name="CyanogenMod/android_external_cyanogen_UICommon" />
   <project path="external/unrar" name="CyanogenMod/android_external_unrar" />
   <project path="external/unzip" name="CyanogenMod/android_external_unzip" />
@@ -48,6 +49,7 @@
   <project path="packages/providers/DataUsageProvider" name="CyanogenMod/android_packages_providers_DataUsageProvider" />
   <project path="packages/providers/ThemesProvider" name="CyanogenMod/android_packages_providers_ThemesProvider" />
   <project path="packages/providers/WeatherProvider" name="CyanogenMod/android_packages_providers_WeatherProvider" />
+  <project path="packages/resources/devicesettings" name="CyanogenMod/android_packages_resources_devicesettings" />
   <project path="packages/services/CMAudioService" name="CyanogenMod/android_packages_services_CMAudioService" />
   <project path="packages/services/LiveLockScreenService" name="CyanogenMod/android_packages_services_LiveLockScreenService" />
   <project path="packages/services/ThemeManagerService" name="CyanogenMod/android_packages_services_ThemeManagerService" />
