@@ -6,7 +6,7 @@
   <project path="kernel/asus/moorefield" name="CyanogenMod/android_kernel_asus_moorefield" revision="cm-14.1" />
   <project path="kernel/oneplus/msm8996" name="CyanogenMod/android_kernel_oneplus_msm8996" revision="cm-14.1"/>
   <project path="kernel/lge/mako" name="CyanogenMod/lge-kernel-mako" revision="cm-14.1" />
-  <project path="kernel/lge/msm8974" name="AICP/android_kernel_lge_msm8974" remote="github" revision="n7.1" />
+  <project path="kernel/lge/msm8974" name="AICP/kernel_lge_msm8974" remote="github" revision="n7.1" />
   <project path="kernel/lge/hammerhead" name="CyanogenMod/android_kernel_lge_hammerhead" remote="github" revision="cm-14.1" />
   <project path="kernel/lge/bullhead" name="CyanogenMod/android_kernel_lge_bullhead" remote="github" revision="cm-14.1" />
   <project path="kernel/huawei/angler" name="NicholasPace/android_kernel_huawei_angler" remote="github" revision="cm-14.1" />
@@ -15,7 +15,6 @@
   <!-- Vendors -->
 
   <project path="vendor/asus" name="jrior001/proprietary_vendor_asus" revision="cm-14.1" />
-  <project path="vendor/qcom/binaries" name="TheMuppets/proprietary_vendor_qcom_binaries" revision="cm-14.1" />
   <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" remote="github" revision="cm-14.1" />
   <project path="vendor/huawei" name="TheMuppets/proprietary_vendor_huawei" remote="github" revision="cm-14.1" />
 
