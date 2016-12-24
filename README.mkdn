@@ -1,7 +1,65 @@
 ![](http://s21.postimg.org/w9nhupo1j/user4968383_pic43635_1391879040.png)
 
+Getting Started
+---------------
+In order to build XOSP for your device, first of all you need to get familiar
+with [Git and Repo](http://source.android.com/source/version-control.html).
 
-# NOTICE
+To initialize your local repository using the XOSP trees, use a command like this:
 
-### Please don't even TRY! To sync this, cause if you do,I'll know you do it cause you will come to me asking about compilation errors or other stuff! 
-### XOSP Nougat development has started so keep calm and wait
+    repo init -u git://github.com/XOSP-Project/platform_manifest.git -b xosp-n
+    
+Then to sync up:
+
+    repo sync --force-sync
+
+--------
+
+## Building XOSP for your device
+
+### Build Environment
+
+- Tested and Working on any version of Ubuntu - 15.10 & 16.04 16.10 (64-bit)
+- Any other distribution based of the Ubuntu Distro such as Lubuntu, Xubuntu and etc.
+- A Terminal window
+- A Good specs of hardware like 8 GB of RAM and an Intel I3 dual core (Minimum)
+- A storage unit of any kind (minimum 100 GB). It would be better to use SSD because is more fast during the compliation process
+- Some dependencies that should be installed
+
+###Building XOSP ROM for your device
+- Preparing Required Binaries and Device Drivers
+- Set CCache for Faster Building (Optional)
+- Build phase
+
+###Set CCache
+
+      $ export USE_CCACHE=1
+      $ prebuilts/misc/linux-x86/ccache/ccache -M 150G
+
+Congratulations,the sources are initialized! 
+
+##### Preparing XOSP for your device
+- To know how to include propietary vendors files from your device, follow this guide which explains everything you need to know: (http://forum.xda-developers.com/showpost.php?p=54118631&postcount=4)
+
+- Once you finish modifying the vendor files for your device, you will need to add this line into the xosp.mk of your device:
+
+      $(call inherit-product, vendor/xosp/config/xosp.mk)
+
+
+##### To build XOSP ROM
+
+      $ cd ~/XOSP
+      $ source build/./envsetup.sh
+      $ brunch <device> -j<number_of_threads>
+
+##### Obtaining the zip created from the build process
+To get the zip file that has been built, navigate to the out directory and find for the zip file there. If you found it, then congratulations! If you didn't, try retrying the build process but before doing so, ensure you do the following:
+
+      $ cd ~/XOSP
+      $ make clean
+
+When you done the initialization once you're free to build now without making that again.
+
+##### For those who finally get the compilation process done
+Well you made it my friend, after all these hours passed now you finally got the ROM ready to be flashed through the recovery of your device. Share it on XDA or on every forum,blog site etc... (as you wish). 
+We expect you to contribute as well and to give credits to the XOSP Team and their contributors! Don't forget to sync your repo everytime and build XOSP more than just one because the source get changed almost everyday with new fixes or new features. Don't esitate to make pull requests because we will take them all in consideration.
