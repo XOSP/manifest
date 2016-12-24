@@ -13,6 +13,11 @@
   </project>
   <project path="vendor/xosp" name="android_vendor_xosp" remote="xosp" />
   <project path="vendor/cmsdk" name="cm_platform_sdk" remote="xosp" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="xosp" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="xosp" groups="pdk-fs" />
   <project path="packages/apps/CMParts" name="android_packages_apps_CMParts" remote="xosp" />
+  <project path="packages/apps/Equalizer" name="xosp_packages_apps_Equalizer" remote="xosp" groups="pdk-fs" />
+  <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="xosp" groups="pdk-fs" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="xosp" groups="pdk-fs" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="xosp" groups="pdk" />
 </manifest>
