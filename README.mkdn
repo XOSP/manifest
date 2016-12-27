@@ -38,21 +38,25 @@ Then to sync up:
 
 Congratulations,the sources are initialized! 
 
-##### Preparing XOSP for your device
-- To know how to include propietary vendors files from your device, follow this guide which explains everything you need to know: (http://forum.xda-developers.com/showpost.php?p=54118631&postcount=4)
+#### Preparing XOSP for your device
+To know how to include propietary vendors files from your device, follow this guide which explains everything you need to know: (http://forum.xda-developers.com/showpost.php?p=54118631&postcount=4)
 
-- Once you finish modifying the vendor files for your device, you will need to add this line into the xosp.mk of your device:
+
+Once you finished setting up your device tree, you will need to add this line into the xosp.mk of your device:
 
       $(call inherit-product, vendor/xosp/config/xosp.mk)
+ 
+If your device is an arm64 architecture based one, then you will have to add also this flag in your xosp.mk:
 
+      IS_ARM64 := TRUE
 
-##### To build XOSP ROM
+#### To build XOSP ROM
 
       $ cd ~/XOSP
       $ source build/./envsetup.sh
-      $ brunch <device> -j<number_of_threads>
+      $ brunch <device> -j<number_of_threads>   (USE brunch ALWAYS!)
 
-##### Obtaining the zip created from the build process
+#### Obtaining the zip created from the build process
 To get the zip file that has been built, navigate to the out directory and find for the zip file there. If you found it, then congratulations! If you didn't, try retrying the build process but before doing so, ensure you do the following:
 
       $ cd ~/XOSP
@@ -60,6 +64,6 @@ To get the zip file that has been built, navigate to the out directory and find 
 
 When you done the initialization once you're free to build now without making that again.
 
-##### For those who finally get the compilation process done
+#### For those who finally get the compilation process done
 Well you made it my friend, after all these hours passed now you finally got the ROM ready to be flashed through the recovery of your device. Share it on XDA or on every forum,blog site etc... (as you wish). 
 We expect you to contribute as well and to give credits to the XOSP Team and their contributors! Don't forget to sync your repo everytime and build XOSP more than just one because the source get changed almost everyday with new fixes or new features. Don't esitate to make pull requests because we will take them all in consideration.
