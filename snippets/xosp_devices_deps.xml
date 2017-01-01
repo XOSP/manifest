@@ -32,6 +32,9 @@
   <!-- Extra Dependencies for OnePlus3 and D802-->
   <project path="vendor/qcom/binaries" name="TheMuppets/proprietary_vendor_qcom_binaries" revision="cm-14.1" />
 
+  <!-- Extra Dependencies for Zenfone 2 Devices -->
+  <project path="packages/apps/FlipFlap" name="LineageOS/android_packages_apps_FlipFlap" revision="cm-14.1" />
+
   <!-- D802 Extra Dependencies -->
 
   <project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" remote="github" revision="cm-14.1" />
