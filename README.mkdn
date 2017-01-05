@@ -15,6 +15,21 @@ Then to sync up:
 
 --------
 
+## Jenkins Build Status
+
+| Device | Build Status |
+|---|---|
+*angler* | [![Build Status](http://jenkins.xosp.org/job/XOSP-angler/badge/icon)](http://jenkins.xosp.org/job/XOSP-angler/)
+*bacon* | [![Build Status](http://jenkins.xosp.org/job/XOSP-bacon/badge/icon)](http://jenkins.xosp.org/job/XOSP-bacon/)
+*bullhead* | [![Build Status](http://jenkins.xosp.org/job/XOSP-bullhead/badge/icon)](http://jenkins.xosp.org/job/XOSP-bullhead/)
+*d802* | [![Build Status](http://jenkins.xosp.org/job/XOSP-d802/badge/icon)](http://jenkins.xosp.org/job/XOSP-d802/)
+*hammerhead* | [![Build Status](http://jenkins.xosp.org/job/XOSP-hammerhead/badge/icon)](http://jenkins.xosp.org/job/XOSP-hammerhead/)
+*kenzo* | [![Build Status](http://jenkins.xosp.org/job/XOSP-kenzo/badge/icon)](http://jenkins.xosp.org/job/XOSP-kenzo/)
+*mako* | [![Build Status](http://jenkins.xosp.org/job/XOSP-mako/badge/icon)](http://jenkins.xosp.org/job/XOSP-mako/)
+*oneplus3* | [![Build Status](http://jenkins.xosp.org/job/XOSP-oneplus3/badge/icon)](http://jenkins.xosp.org/job/XOSP-oneplus3/)
+*Z008* | [![Build Status](http://jenkins.xosp.org/job/XOSP-Z008/badge/icon)](http://jenkins.xosp.org/job/XOSP-Z008/)
+*Z00A* | [![Build Status](http://jenkins.xosp.org/job/XOSP-Z00A/badge/icon)](http://jenkins.xosp.org/job/XOSP-Z00A/)
+
 ## Building XOSP for your device
 
 ### Build Environment
