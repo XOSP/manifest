@@ -6,7 +6,7 @@
   <project path="kernel/asus/moorefield" name="LineageOS/android_kernel_asus_moorefield" revision="cm-14.1" />
   <project path="kernel/oneplus/msm8996" name="LineageOS/android_kernel_oneplus_msm8996" revision="cm-14.1"/>
   <project path="kernel/lge/mako" name="LineageOS/lge-kernel-mako" revision="cm-14.1" />
-  <project path="kernel/lge/msm8974" name="nasty007/android_kernel_lge_msm8974" remote="github" revision="n7.1" />
+  <project path="kernel/lge/msm8974" name="nasty007/android_kernel_lge_msm8974" remote="github" revision="n7x-caf" />
   <project path="kernel/lge/hammerhead" name="LineageOS/android_kernel_lge_hammerhead" remote="github" revision="cm-14.1" />
   <project path="kernel/lge/bullhead" name="LineageOS/android_kernel_lge_bullhead" remote="github" revision="cm-14.1" />
   <project path="kernel/huawei/angler" name="NicholasPace/android_kernel_huawei_angler" remote="github" revision="cm-14.1" />
