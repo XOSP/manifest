@@ -478,6 +478,6 @@
 
   <include name="snippets/xosp-n.xml" />
   <include name="snippets/xosp_devices_deps.xml"/>
-  <include name="snippets/cm.xml" />
+  <include name="snippets/los.xml" />
 
 </manifest>
