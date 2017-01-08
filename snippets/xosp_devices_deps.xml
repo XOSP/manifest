@@ -3,7 +3,6 @@
 <manifest>
 
   <!-- Kernels -->
-
   <project path="kernel/asus/moorefield" name="LineageOS/android_kernel_asus_moorefield" revision="cm-14.1" />
   <project path="kernel/oneplus/msm8996" name="LineageOS/android_kernel_oneplus_msm8996" revision="cm-14.1"/>
   <project path="kernel/lge/mako" name="LineageOS/lge-kernel-mako" revision="cm-14.1" />
@@ -16,9 +15,6 @@
   <project path="vendor/asus" name="jrior001/proprietary_vendor_asus" revision="cm-14.1" />
   <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" remote="github" revision="cm-14.1" />
   <project path="vendor/huawei" name="TheMuppets/proprietary_vendor_huawei" remote="github" revision="cm-14.1" />
-
-  <!-- Common dependency for qualcomm devices -->
-  <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" revision="cm-14.1" /> 
 
    <!-- Extra Dependencies for OnePlus3-->
   <project path="vendor/nxp-nfc/opensource/frameworks" name="LineageOS/android_vendor_nxp-nfc_opensource_frameworks" revision="cm-14.1"/> 
@@ -39,4 +35,3 @@
   <project path="kernel/xiaomi/msm8956" name="LineageOS/android_kernel_xiaomi_msm8956" remote="github" revision="cm-14.1" />
 
 </manifest>
-
