@@ -4,6 +4,7 @@
 
   <!-- Kernels -->
   <project path="kernel/asus/moorefield" name="LineageOS/android_kernel_asus_moorefield" revision="cm-14.1" />
+  <project path="kernel/motorola/msm8916" name="LineageOS/android_kernel_motorola_msm8916" revision="cm-14.1"/>
   <project path="kernel/oneplus/msm8996" name="LineageOS/android_kernel_oneplus_msm8996" revision="cm-14.1"/>
   <project path="kernel/lge/mako" name="LineageOS/lge-kernel-mako" revision="cm-14.1" />
   <project path="kernel/lge/msm8974" name="nasty007/android_kernel_lge_msm8974" remote="github" revision="n7x-caf" />
@@ -16,12 +17,15 @@
   <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" remote="github" revision="cm-14.1" />
   <project path="vendor/huawei" name="TheMuppets/proprietary_vendor_huawei" remote="github" revision="cm-14.1" />
 
-   <!-- Extra Dependencies for OnePlus3-->
+   <!-- Extra Dependencies for Motorola msm8916 -->
+  <project path="external/bson" name="LineageOS/android_external_bson" revision="cm-14.1"/>   
+
+   <!-- Extra Dependencies for OnePlus3 -->
   <project path="vendor/nxp-nfc/opensource/frameworks" name="LineageOS/android_vendor_nxp-nfc_opensource_frameworks" revision="cm-14.1"/> 
   <project path="vendor/nxp-nfc/opensource/libnfc-nci" name="LineageOS/android_vendor_nxp-nfc_opensource_libnfc-nci" revision="cm-14.1"/> 
   <project path="vendor/nxp-nfc/opensource/Nfc" name="LineageOS/android_vendor_nxp-nfc_opensource_Nfc" revision="cm-14.1"/>
 
-  <!-- Extra Dependencies for OnePlus3 and D802-->
+  <!-- Extra Dependencies for OnePlus3 and D802 -->
   <project path="vendor/qcom/binaries" name="TheMuppets/proprietary_vendor_qcom_binaries" revision="cm-14.1" />
 
   <!-- Extra Dependencies for Zenfone 2 Devices -->
