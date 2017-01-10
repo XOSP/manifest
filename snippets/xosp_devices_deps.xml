@@ -12,6 +12,7 @@
   <project path="kernel/lge/bullhead" name="LineageOS/android_kernel_lge_bullhead" remote="github" revision="cm-14.1" />
   <project path="kernel/huawei/angler" name="NicholasPace/android_kernel_huawei_angler" remote="github" revision="cm-14.1" />
   <project path="kernel/sony/msm8960t" name="LineageOS/android_kernel_sony_msm8960t" remote="github" revision="cm-14.1" />
+  <project path="kernel/oneplus/onyx" name="BirdSanctuary/kernel_oneplus_onyx" revision="n7"/>	
 
   <!-- Vendors -->
   <project path="vendor/asus" name="jrior001/proprietary_vendor_asus" revision="cm-14.1" />
