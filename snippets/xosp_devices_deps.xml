@@ -39,8 +39,6 @@
   <!-- D802 Extra Dependencies -->
   <project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" remote="github" revision="cm-14.1" />
 
-  <!-- Kenzo Stuff -->
-  <project path="vendor/xiaomi" name="TheMuppets/proprietary_vendor_xiaomi" remote="github" revision="cm-14.1" /> 
   <project path="kernel/xiaomi/msm8956" name="LineageOS/android_kernel_xiaomi_msm8956" remote="github" revision="cm-14.1" />
 	
   <!-- Extra Dependencies for huashan -->
