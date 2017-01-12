@@ -81,4 +81,4 @@ When you done the initialization once you're free to build now without making th
 
 #### For those who finally get the compilation process done
 Well you made it my friend, after all these hours passed now you finally got the ROM ready to be flashed through the recovery of your device. Share it on XDA or on every forum,blog site etc... (as you wish). 
-We expect you to contribute as well and to give credits to the XOSP Team and their contributors! Don't forget to sync your repo everytime and build XOSP more than just one because the source get changed almost everyday with new fixes or new features. Don't esitate to make pull requests because we will take them all in consideration.
+We expect you to contribute as well and to give credits to the XOSP Team and their contributors! Don't forget to sync your repo everytime and build XOSP more than just one because the source get changed almost everyday with new fixes or new features. Don't hesitate to make pull requests because we will take them all in consideration.
