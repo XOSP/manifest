@@ -20,6 +20,7 @@
   <project path="vendor/asus" name="jrior001/proprietary_vendor_asus" remote="github" revision="cm-14.1" />
   <project path="vendor/huawei" name="TheMuppets/proprietary_vendor_huawei" remote="github" revision="cm-14.1" />
   <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" remote="github" revision="cm-14.1" />
+  <project path="vendor/motorola" name="XOSP-Devices/proprietary_vendor_motorola" remote="github" revision="xosp-n" />
   <project path="vendor/sony" name="TheMuppets/proprietary_vendor_sony" remote="github" clone-depth="1" revision="cm-14.1" />
   <project path="vendor/xiaomi" name="TheMuppets/proprietary_vendor_xiaomi" remote="github" revision="cm-14.1" />
 
