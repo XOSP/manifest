@@ -60,8 +60,6 @@
 
   <!-- CodeAurora additions -->
   <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" /> 
-  <project path="device/sony/common" name="LineageOS/android_device_sony_common" />
-  <project path="external/stlport" name="LineageOS/android_external_stlport" />
   <project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" />
   <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" />
   <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" />
@@ -108,6 +106,6 @@
   <project path="vendor/qcom/opensource/bluetooth" name="LineageOS/android_vendor_qcom_opensource_bluetooth" />
   <project path="vendor/qcom/opensource/dataservices" name="LineageOS/android_vendor_qcom_opensource_dataservices" />
   <project path="vendor/qcom/opensource/dpm" name="LineageOS/android_vendor_qcom_opensource_dpm" />
-  <project path="vendor/qcom/opensource/location" name="LineageOS/android_hardware_qcom_gps" revision="cm-14.1" />
   <project path="vendor/qcom/opensource/time-services" name="LineageOS/android_vendor_qcom_opensource_time-services" />
+
 </manifest>
