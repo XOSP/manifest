@@ -15,6 +15,8 @@
   <project path="kernel/sony/msm8960t" name="LineageOS/android_kernel_sony_msm8960t" revision="cm-14.1" />
   <project path="kernel/xiaomi/armani" name="LineageOS/android_kernel_xiaomi_armani" revision="cm-14.1" />
   <project path="kernel/xiaomi/msm8956" name="LineageOS/android_kernel_xiaomi_msm8956" revision="cm-14.1" />
+  <project name="LineageOS/android_kernel_oneplus_msm8994" path="kernel/oneplus/msm8994" remote="github" revision="cm-14.1" />
+
 
   <!-- Vendors -->
   <project path="vendor/asus" name="jrior001/proprietary_vendor_asus" remote="github" revision="cm-14.1" />
