@@ -13,7 +13,7 @@
   <project path="kernel/oneplus/msm8996" name="LineageOS/android_kernel_oneplus_msm8996" revision="cm-14.1"/>
   <project path="kernel/oneplus/onyx" name="BirdSanctuary/kernel_oneplus_onyx" remote="github" revision="n7"/>
   <project path="kernel/sony/msm8960t" name="LineageOS/android_kernel_sony_msm8960t" revision="cm-14.1" />
-  <project path="kernel/xiaomi/armani" name="LineageOS/android_kernel_xiaomi_armani" revision="cm-14.1" />
+  <project path="kernel/xiaomi/armani" name="hemantbeast/xiaomi_armani_kernel" remote="github" revision="cm-14.x" />
   <project path="kernel/xiaomi/msm8956" name="LineageOS/android_kernel_xiaomi_msm8956" revision="cm-14.1" />
   <project name="LineageOS/android_kernel_oneplus_msm8994" path="kernel/oneplus/msm8994" remote="github" revision="cm-14.1" />
 
