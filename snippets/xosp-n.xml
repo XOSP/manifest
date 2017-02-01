@@ -20,4 +20,5 @@
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="xosp" groups="pdk-fs" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="xosp" groups="pdk-fs" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="xosp" groups="pdk" />
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="xosp" />
 </manifest>
