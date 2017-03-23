@@ -10,6 +10,7 @@
   <project path="external/exfat" name="android_external_exfat"  revision="xosp-n-rebase" />
   <project path="external/ffmpeg" name="android_external_ffmpeg"  revision="xosp-n-rebase" />
   <project path="external/fuse" name="android_external_fuse"  revision="xosp-n-rebase" />
+  <project path="external/htop" name="android_external_htop" revision="xosp-n-rebase" />
   <project path="external/koush/ion" name="ion"  revision="xosp-n-rebase" />
   <project path="external/libncurses" name="android_external_libncurses"  revision="xosp-n-rebase" />
   <project path="external/libphonenumbergoogle" name="android_external_libphonenumbergoogle"  revision="xosp-n-rebase" />
@@ -22,10 +23,17 @@
   <project path="external/p7zip" name="android_external_p7zip"  revision="xosp-n-rebase" />
   <project path="external/pigz" name="android_external_pigz"  revision="xosp-n-rebase" />
   <project path="external/rsync" name="android_external_rsync"  revision="xosp-n-rebase" />
+  <project path="external/stagefright-plugins" name="android_external_stagefright-plugins" revision="xosp-n-rebase" />
   <project path="external/unrar" name="android_external_unrar"  revision="xosp-n-rebase" />
   <project path="external/unzip" name="android_external_unzip"  revision="xosp-n-rebase" />
+  <project path="external/vim" name="android_external_vim" revision="xosp-n-rebase" />
   <project path="external/yaffs2" name="android_external_yaffs2"  revision="xosp-n-rebase" />
   <project path="external/zip" name="android_external_zip"  revision="xosp-n-rebase" />
+  <project path="hardware/ti/omap4" name="android_hardware_ti_omap4" revision="xosp-n-rebase" />
+  <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" revision="xosp-n-rebase" />
+  <project path="hardware/ti/wpan" name="android_hardware_ti_wpan" revision="xosp-n-rebase" />
+  <project path="packages/apps/Exchange" name="android_packages_apps_Exchange" revision="xosp-n-rebase" />
+  <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" revision="xosp-n-rebase" />
 
   <!-- CodeAurora additions -->
   <project path="device/qcom/common" name="android_device_qcom_common"  revision="xosp-n-rebase"/> 
