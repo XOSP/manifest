@@ -3,7 +3,7 @@
 
   <remote name="XOSPD"
           fetch="https://github.com/"
-          remote="cm-14.1" />
+          revision="cm-14.1" />
 
   <!-- Kernels -->
   <project path="kernel/asus/moorefield" name="LineageOS/android_kernel_asus_moorefield" remote="XOSPD" />
@@ -25,7 +25,6 @@
   <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" remote="XOSPD" />
   <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" remote="XOSPD" />
   <project path="vendor/sony" name="TheMuppets/proprietary_vendor_sony" clone-depth="1" remote="XOSPD" />
-  <project path="vendor/xiaomi" name="TheMuppets/proprietary_vendor_xiaomi" remote="XOSPD" />
 
   <!-- Extra Dependencies for Zenfone 2 Devices -->
   <!--<project path="packages/apps/FlipFlap" name="LineageOS/android_packages_apps_FlipFlap" remote="XOSPD" />-->

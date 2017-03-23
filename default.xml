@@ -487,6 +487,6 @@
   <project path="vendor/xosp" name="android_vendor_xosp"/>
 
   <include name="snippets/additions.xml" />
-  <!--<include name="snippets/xosp_devices_deps.xml"/>-->
+  <include name="snippets/xosp_devices_deps.xml"/>
 
 </manifest>
