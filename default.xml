@@ -6,8 +6,7 @@
            revision="xosp-n-rebase" />
 
   <remote  name="xosp_devices"
-           fetch="https://github.com/"
-           revision="xosp-n" />
+           fetch=".." />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
@@ -487,7 +486,7 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" remote="aosp" />
   <project path="vendor/xosp" name="android_vendor_xosp"/>
 
-  <!--<include name="snippets/additions.xml" />-->
+  <include name="snippets/additions.xml" />
   <!--<include name="snippets/xosp_devices_deps.xml"/>-->
 
 </manifest>
