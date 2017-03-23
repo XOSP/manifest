@@ -5,6 +5,10 @@
            fetch="https://github.com/XOSP-Project"
            revision="xosp-n-rebase" />
 
+  <remote  name="xosp_devices"
+           fetch="https://github.com/"
+           revision="xosp-n" />
+
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
