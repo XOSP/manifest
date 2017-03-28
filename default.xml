@@ -14,7 +14,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
-           revision="refs/tags/android-7.1.1_r9" />
+           revision="refs/tags/android-7.1.1_r28" />
 
   <default revision="refs/heads/xosp-n-rebase"
            remote="github"
