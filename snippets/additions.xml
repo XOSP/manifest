@@ -73,7 +73,7 @@
   <project path="hardware/qcom/media-caf/msm8994" name="android_hardware_qcom_media" groups="qcom" revision="xosp-n-caf-8994" />
   <project path="hardware/qcom/media-caf/msm8996" name="android_hardware_qcom_media" groups="qcom" revision="xosp-n-caf-8996" />
   <project path="hardware/qcom/wlan-caf" name="android_hardware_qcom_wlan" groups="qcom_wlan" revision="xosp-n-rebase" />
-  <project path="hardware/ril-caf" name="android_hardware_ril" groups="pdk" revision="xosp-n-rebase" />
+  <project path="hardware/ril-caf" name="android_hardware_ril" groups="pdk" revision="xosp-n-rebase-caf" />
   <project path="system/qcom" name="android_system_qcom" groups="qcom" revision="xosp-n-rebase" />
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" revision="xosp-n-rebase" />
   <project path="vendor/qcom/opensource/bluetooth" name="android_vendor_qcom_opensource_bluetooth" revision="xosp-n-rebase" />
