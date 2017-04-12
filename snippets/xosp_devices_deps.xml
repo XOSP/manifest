@@ -26,6 +26,9 @@
   <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" remote="XOSPD" />
   <project path="vendor/sony" name="TheMuppets/proprietary_vendor_sony" clone-depth="1" remote="XOSPD" />
 
+  <!-- Extra Dependencies for all devices with CMActions -->
+  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="XOSPD" />
+
   <!-- Extra Dependencies for Zenfone 2 Devices -->
   <!--<project path="packages/apps/FlipFlap" name="LineageOS/android_packages_apps_FlipFlap" remote="XOSPD" />-->
 
