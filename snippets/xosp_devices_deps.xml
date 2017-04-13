@@ -7,7 +7,7 @@
 
   <!-- Kernels -->
   <project path="kernel/asus/moorefield" name="LineageOS/android_kernel_asus_moorefield" remote="XOSPD" />
-  <project path="kernel/huawei/angler" name="NicholasPace/android_kernel_angler_pa-caf" remote="XOSPD" revision="nougat-mr1" />
+  <project path="kernel/huawei/angler" name="NicholasPace/kernel_angler_pa-caf" remote="XOSPD" revision="nougat-mr1" />
   <project path="kernel/lge/bullhead" name="LineageOS/android_kernel_lge_bullhead" remote="XOSPD" />
   <project path="kernel/lge/hammerhead" name="LineageOS/android_kernel_lge_hammerhead" remote="XOSPD" />
   <project path="kernel/lge/mako" name="LineageOS/lge-kernel-mako" remote="XOSPD" />
