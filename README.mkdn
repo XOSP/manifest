@@ -1,4 +1,4 @@
-![](http://s21.postimg.org/w9nhupo1j/user4968383_pic43635_1391879040.png)
+![xosp_generic_banner_git](https://cloud.githubusercontent.com/assets/6454841/23626424/28747708-02ad-11e7-8517-4e3de44ea473.png)
 
 Getting Started
 ---------------
@@ -21,18 +21,11 @@ Then to sync up:
 |---|---|
 *angler* | [![Build Status](http://jenkins.xosp.org/job/XOSP-angler/badge/icon)](http://jenkins.xosp.org/job/XOSP-angler/)
 *armani* | [![Build Status](http://jenkins.xosp.org/job/XOSP-armani/badge/icon)](http://jenkins.xosp.org/job/XOSP-armani/)
-*bacon* | [![Build Status](http://jenkins.xosp.org/job/XOSP-bacon/badge/icon)](http://jenkins.xosp.org/job/XOSP-bacon/)
-*bullhead* | [![Build Status](http://jenkins.xosp.org/job/XOSP-bullhead/badge/icon)](http://jenkins.xosp.org/job/XOSP-bullhead/)
-*d802* | [![Build Status](http://jenkins.xosp.org/job/XOSP-d802/badge/icon)](http://jenkins.xosp.org/job/XOSP-d802/)
-*hammerhead* | [![Build Status](http://jenkins.xosp.org/job/XOSP-hammerhead/badge/icon)](http://jenkins.xosp.org/job/XOSP-hammerhead/)
 *huashan* | [![Build Status](http://jenkins.xosp.org/job/XOSP-huashan/badge/icon)](http://jenkins.xosp.org/job/XOSP-huashan/)
 *kenzo* | [![Build Status](http://jenkins.xosp.org/job/XOSP-kenzo/badge/icon)](http://jenkins.xosp.org/job/XOSP-kenzo/)
 *lux* | [![Build Status](http://jenkins.xosp.org/job/XOSP-lux/badge/icon)](http://jenkins.xosp.org/job/XOSP-lux/)
 *mako* | [![Build Status](http://jenkins.xosp.org/job/XOSP-mako/badge/icon)](http://jenkins.xosp.org/job/XOSP-mako/)
-*oneplus2* | [![Build Status](http://jenkins.xosp.org/job/XOSP-oneplus2/badge/icon)](http://jenkins.xosp.org/job/XOSP-oneplus2/)
-*oneplus3* | [![Build Status](http://jenkins.xosp.org/job/XOSP-oneplus3/badge/icon)](http://jenkins.xosp.org/job/XOSP-oneplus3/)
 *onyx* | [![Build Status](http://jenkins.xosp.org/job/XOSP-onyx/badge/icon)](http://jenkins.xosp.org/job/XOSP-onyx/)
-*osprey* | [![Build Status](http://jenkins.xosp.org/job/XOSP-osprey/badge/icon)](http://jenkins.xosp.org/job/XOSP-osprey/)
 *surnia* | [![Build Status](http://jenkins.xosp.org/job/XOSP-surnia/badge/icon)](http://jenkins.xosp.org/job/XOSP-surnia/)
 *Z008* | [![Build Status](http://jenkins.xosp.org/job/XOSP-Z008/badge/icon)](http://jenkins.xosp.org/job/XOSP-Z008/)
 *Z00A* | [![Build Status](http://jenkins.xosp.org/job/XOSP-Z00A/badge/icon)](http://jenkins.xosp.org/job/XOSP-Z00A/)
@@ -48,12 +41,12 @@ Then to sync up:
 - A storage unit of any kind (minimum 100 GB). It would be better to use SSD because is more fast during the compliation process
 - Some dependencies that should be installed
 
-###Building XOSP ROM for your device
+### Building XOSP ROM for your device
 - Preparing Required Binaries and Device Drivers
 - Set CCache for Faster Building (Optional)
 - Build phase
 
-###Set CCache
+### Set CCache
 
       $ export USE_CCACHE=1
       $ prebuilts/misc/linux-x86/ccache/ccache -M 150G
