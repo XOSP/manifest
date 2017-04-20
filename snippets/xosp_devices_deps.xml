@@ -22,6 +22,9 @@
   <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" remote="XOSPD" />
   <project path="vendor/sony" name="TheMuppets/proprietary_vendor_sony" clone-depth="1" remote="XOSPD" />
 
+  <!-- Extra Dependencies for all devices with CMActions -->
+  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="XOSPD" />
+
   <!-- D802 Extra Dependencies -->
   <project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" remote="XOSPD" />
 
