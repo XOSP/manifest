@@ -60,10 +60,15 @@ To know how to include propietary vendors files from your device, follow this gu
 Once you finished setting up your device tree, you will need to add this line into the xosp.mk of your device:
 
       $(call inherit-product, vendor/xosp/config/xosp.mk)
- 
+
+If you want to include ROOT support in your build you will have to specify a parameter in xosp.mk which includes 2 possibilities: "supersu" and "magisk":
+
+      ROOT_METHOD := supersu OR ROOT_METHOD := magisk
+	  
 If your device is an arm64 architecture based one, then you will have to add also this flag in your xosp.mk:
 
       IS_ARM64 := TRUE
+
 
 #### To build XOSP ROM
 
