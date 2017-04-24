@@ -11,7 +11,7 @@
   <project path="kernel/lge/mako" name="LineageOS/lge-kernel-mako" remote="XOSPD" />
   <project path="kernel/lge/msm8974" name="nasty007/android_kernel_lge_msm8974" remote="XOSPD" revision="n7x-caf" />
   <project path="kernel/motorola/msm8916" name="LineageOS/android_kernel_motorola_msm8916" remote="XOSPD"/>
-  <project path="kernel/oneplus/onyx" name="BirdSanctuary/kernel_oneplus_onyx" remote="XOSPD" revision="n7"/>
+  <project path="kernel/oneplus/onyx" name="LineageOS/android_kernel_oneplus_onyx" remote="XOSPD" revision="cm-14.1"/>
   <project path="kernel/sony/msm8960t" name="LineageOS/android_kernel_sony_msm8960t" remote="XOSPD" />
   <project path="kernel/xiaomi/armani" name="hemantbeast/xiaomi_armani_kernel" remote="XOSPD" revision="cm-14.x" />
 
@@ -21,6 +21,7 @@
   <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" remote="XOSPD" />
   <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" remote="XOSPD" />
   <project path="vendor/sony" name="TheMuppets/proprietary_vendor_sony" clone-depth="1" remote="XOSPD" />
+  <project path="vendor/oneplus" name="TheMuppets/proprietary_vendor_oneplus" remote="XOSPD" />
 
   <!-- Extra Dependencies for all devices with CMActions -->
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="XOSPD" />
