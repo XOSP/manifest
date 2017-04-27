@@ -16,6 +16,10 @@
            review="android-review.googlesource.com"
            revision="refs/tags/android-7.1.1_r38" />
 
+  <remote  name="XOSPD"
+           fetch="https://github.com/"
+           revision="cm-14.1" />
+
   <default revision="refs/heads/xosp-n-rebase"
            remote="github"
            sync-c="true"
@@ -487,6 +491,5 @@
   <project path="vendor/xosp" name="android_vendor_xosp"/>
 
   <include name="snippets/additions.xml" />
-  <include name="snippets/xosp_devices_deps.xml"/>
 
 </manifest>
