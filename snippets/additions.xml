@@ -36,7 +36,6 @@
   <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" revision="xosp-n-rebase" />
 
   <!-- CodeAurora additions -->
-  <project path="device/qcom/common" name="android_device_qcom_common"  revision="xosp-n-rebase"/> 
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" revision="xosp-n-rebase" />
   <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" revision="xosp-n-rebase" />
   <project path="external/brctl" name="android_external_brctl" revision="xosp-n-rebase" />
