@@ -15,21 +15,6 @@ Then to sync up:
 
 --------
 
-## Jenkins Build Status
-
-| Device | Build Status |
-|---|---|
-*angler* | [![Build Status](http://jenkins.xosp.org/job/XOSP-angler/badge/icon)](http://jenkins.xosp.org/job/XOSP-angler/)
-*armani* | [![Build Status](http://jenkins.xosp.org/job/XOSP-armani/badge/icon)](http://jenkins.xosp.org/job/XOSP-armani/)
-*huashan* | [![Build Status](http://jenkins.xosp.org/job/XOSP-huashan/badge/icon)](http://jenkins.xosp.org/job/XOSP-huashan/)
-*kenzo* | [![Build Status](http://jenkins.xosp.org/job/XOSP-kenzo/badge/icon)](http://jenkins.xosp.org/job/XOSP-kenzo/)
-*lux* | [![Build Status](http://jenkins.xosp.org/job/XOSP-lux/badge/icon)](http://jenkins.xosp.org/job/XOSP-lux/)
-*mako* | [![Build Status](http://jenkins.xosp.org/job/XOSP-mako/badge/icon)](http://jenkins.xosp.org/job/XOSP-mako/)
-*onyx* | [![Build Status](http://jenkins.xosp.org/job/XOSP-onyx/badge/icon)](http://jenkins.xosp.org/job/XOSP-onyx/)
-*surnia* | [![Build Status](http://jenkins.xosp.org/job/XOSP-surnia/badge/icon)](http://jenkins.xosp.org/job/XOSP-surnia/)
-*Z008* | [![Build Status](http://jenkins.xosp.org/job/XOSP-Z008/badge/icon)](http://jenkins.xosp.org/job/XOSP-Z008/)
-*Z00A* | [![Build Status](http://jenkins.xosp.org/job/XOSP-Z00A/badge/icon)](http://jenkins.xosp.org/job/XOSP-Z00A/)
-
 ## Building XOSP for your device
 
 ### Build Environment
