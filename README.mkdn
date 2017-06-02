@@ -11,7 +11,7 @@ To initialize your local repository using the XOSP trees, use a command like thi
     
 Then to sync up:
 
-    repo sync --force-sync
+    repo sync -c -f -j<number_of_threads> --force-sync --no-clone-bundle --no-tags
 
 --------
 
