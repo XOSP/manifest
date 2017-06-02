@@ -15,8 +15,6 @@ Then to sync up:
 
 --------
 
-TEST
-
 ## Building XOSP for your device
 
 ### Build Environment
