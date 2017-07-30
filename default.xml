@@ -20,6 +20,15 @@
            fetch="https://github.com/"
            revision="cm-14.1" />
 
+  <remote name="github_default"
+           fetch="https://github.com/" />
+
+  <remote name="gitlab"
+           fetch="https://gitlab.com/" />
+
+  <remote name="bitbucket"
+           fetch="https://bitbucket.org/" />
+
   <default revision="refs/heads/xosp-n-rebase"
            remote="github"
            sync-c="true"
