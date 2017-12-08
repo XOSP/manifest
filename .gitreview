@@ -2,4 +2,4 @@
 host=review.xosp.org
 port=29418
 project=platform_manifest.git
-defaultbranch=xosp-n-rebase
+defaultbranch=xosp-o
