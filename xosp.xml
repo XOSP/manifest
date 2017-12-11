@@ -6,6 +6,13 @@
           revision="xosp-o"
           review="review.xosp.org" />
 
+  <remote name="XOSPD"
+          fetch="https://github.com/"
+          revision="xosp-o" />
+
+  <remote name="github"
+          fetch="https://github.com/" />
+
   <!-- Remove first some AOSP repos -->
 
   <remove-project name="platform/build" />
